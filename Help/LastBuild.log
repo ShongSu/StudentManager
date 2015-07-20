@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.4.0" projectFile="E:\StudentManager\test.shfbproj" started="2012-11-20 8:55:19">
+<buildStep step="Initializing">
+</buildStep>
+<buildStep step="FindingTools">
+Finding tools...
+Found Sandcastle tools in &#39;C:\Program Files\Sandcastle\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files\HTML Help Workshop\&#39;
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: E:\StudentManager\StudentManager\bin\Debug\StudentManager.exe
+    Found assembly &#39;E:\StudentManager\StudentManager\bin\Debug\StudentManager.exe&#39;
+Source: E:\StudentManager\StudentManager\bin\Debug\StudentManager.XML
+
+Copying XML comments files
+    E:\StudentManager\StudentManager\bin\Debug\StudentManager.XML -&gt; E:\StudentManager\Help\Working\StudentManager.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, 英语(美国))...
+    Last step completed in 00:00:00.1719
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0313
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  MRefBuilder (v2.7.0.0)
+  Copyright ? 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Loaded 1 assemblies for reflection and 0 dependency assemblies.
+  Info: Wrote information on 1 namespaces, 10 types, and 67 members
+  XslTransform (v2.7.0.0)
+  Copyright ? 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+    Last step completed in 00:00:20.1719
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    0 attribute nodes removed
+    0 explicit interface implementations removed
+    35 local and base class EII elements removed
+    Last step completed in 00:00:00.5156
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.0.0)
+  Copyright ? 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
+  XslTransform (v2.7.0.0)
+  Copyright ? 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+    Last step completed in 00:00:07.5469
+</buildStep>
+<buildStep step="ModifyHelpTopicFilenames">
+Modifying help topic filenames in reflection information file
+    No changes required
+    Last step completed in 00:00:00.6719
+</buildStep>
+<buildStep step="CopyStandardContent">
+Copying standard help content...
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\adm.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\adm.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\adm_arch.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\adm_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\adm_dev.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\adm_dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\adm_dev_arch.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\adm_dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\alert_caution.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\alert_caution.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\alert_note.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\alert_note.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\alert_security.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\alert_security.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\arch.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\big_adm.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\big_adm.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\big_arch.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\big_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\big_dev.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\big_dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\big_kw.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\big_kw.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\box.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\box.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\Caution.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\Caution.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\CFW.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\collall.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\collall.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\collapse.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\collapse.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\collapse_all.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\collapse_all.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\copycode.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\copycode.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\copycodeHighlight.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\copycodeHighlight.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\dev.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\dev_arch.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\dropdown.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\dropdown.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\dropdownHover.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\dropdownHover.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\drpdown.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\drpdown.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\drpdown_orange.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\drpdown_orange.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\drpdown_orange_up.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\drpdown_orange_up.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\drpup.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\drpup.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\exp.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\exp.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\expall.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\expall.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\expand_all.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\expand_all.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\filter1a.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\filter1a.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\filter1c.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\filter1c.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\footer.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\footer.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\gradient.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\gradient.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\greencheck.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\greencheck.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\greychck.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\greychck.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\header_prev_next.jpg -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\header_prev_next.jpg
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\header_sql_tutorial_blank.jpg -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_blank.jpg
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\header_sql_tutorial_logo.GIF -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_logo.GIF
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\kw.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_adm.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\kw_adm.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_adm_arch.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\kw_adm_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_adm_dev.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_adm_dev_arch.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_arch.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\kw_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_dev.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\kw_dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_dev_arch.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\kw_dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\LastChild.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\LastChild.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\load.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\load.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\load_hover.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\load_hover.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\note.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\note.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pencil.GIF -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\pencil.GIF
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privclass.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privdelegate.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privenum.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\privenum.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privenumeration.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privevent.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privextension.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privfield.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privinterface.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privmethod.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privproperty.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privstructure.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protclass.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protdelegate.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protenum.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\protenum.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protenumeration.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protevent.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protextension.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protfield.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protinterface.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protmethod.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protoperator.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protproperty.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protstructure.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubclass.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubdelegate.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubenum.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\pubenum.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubenumeration.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubevent.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubextension.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubfield.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubinterface.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubmethod.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\puboperator.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubproperty.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubstructure.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\requirements1a.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\requirements1a.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\requirements1c.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\requirements1c.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\save.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\save.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\save_hover.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\save_hover.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\security.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\security.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\seealso1a.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\seealso1a.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\seealso1c.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\seealso1c.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\slMobile.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\static.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\xna.gif -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\CheckboxMenu.js -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\scripts\CheckboxMenu.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\CommonUtilities.js -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\scripts\CommonUtilities.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\Dropdown.js -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\scripts\Dropdown.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\EventUtilities.js -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\scripts\EventUtilities.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\script_feedBack.js -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\scripts\script_feedBack.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\script_manifold.js -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\scripts\script_manifold.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\scripts\SplitScreen.js
+C:\Program Files\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\styles\Presentation.css
+C:\Program Files\Sandcastle\Presentation\vs2005\styles\Whidbey\Presentation.css -&gt; E:\StudentManager\Help\Working\Output\HtmlHelp1\styles\Whidbey\Presentation.css
+    Last step completed in 00:00:00.8125
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.0.0)
+  Copyright ? 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.9531
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.0625
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+E:\StudentManager\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.2031
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.0.0)
+  Copyright ? 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: CopyFromFileComponent: Instantiating component.
+  Info: CopyFromFileComponent: Loading data file &#39;C:\Program Files\Sandcastle\Presentation\vs2005\Transforms\skeleton.xml&#39;.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files\Sandcastle\Data\Reflection&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39;.
+  Info: CopyFromIndexComponent: Indexed 194807 elements in 420 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: IfThenComponent: Instantiating component.
+  Info: SyntaxComponent: Instantiating component.
+  Info: SyntaxComponent: Loaded 3 syntax generators.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;E:\StudentManager\Help\Working\StudentManager.XML&#39;.
+  Info: CopyFromIndexComponent: Indexed 129 elements in 2 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: IfThenComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 2 subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ShowMissingComponent: Instantiating component.
+  Info: ShowMissingComponent: 
+      [Sandcastle Help File Builder, version 1.9.4.0]
+      Show Missing Documentation Component. Copyright ? 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: VersionInfoComponent: Instantiating component.
+  Info: VersionInfoComponent: 
+      [Sandcastle Help File Builder, version 1.9.4.0]
+      Version Information Component. Copyright ? 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: CodeBlockComponent: Instantiating component.
+  Info: CodeBlockComponent: 
+      [Sandcastle Help File Builder, version 1.9.4.0]
+      Code Block Component. Copyright ? 2006-2012, Eric Woodruff, All Rights Reserved.
+      Portions copyright (c) 2003, Jonathan de Halleux, All rights reserved.
+      http://SHFB.CodePlex.com
+  Info: TransformComponent: Instantiating component.
+  Info: PostTransformComponent: Instantiating component.
+  Info: PostTransformComponent: 
+      [Sandcastle Help File Builder, version 1.9.4.0]
+      Post-Transform Component. Copyright ? 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: MultiFormatOutputComponent: Instantiating component.
+  Info: MultiFormatOutputComponent: 
+      [Sandcastle Help File Builder, version 1.9.4.0]
+      Multi-Format Output Component. Copyright ? 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: MultiFormatOutputComponent: Loading components for HtmlHelp1 format
+  Info: SharedContentComponent: Instantiating component.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files\Sandcastle\Presentation\vs2005\content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files\Sandcastle\Presentation\vs2005\content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\vs2005\content\shared_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\vs2005\content\reference_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\shared\content\syntax_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files\Sandcastle\Presentation\vs2005\content\feedback_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files\Sandcastle\Presentation\vs2005\content\feedBack_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\vs2005\content\feedback_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;E:\StudentManager\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;roottopictitle&#39; with value in file &#39;E:\StudentManager\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;runningheadertext&#39; with value in file &#39;E:\StudentManager\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;locationinformation&#39; with value in file &#39;E:\StudentManager\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;assemblynameandmodule&#39; with value in file &#39;E:\StudentManager\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copycode&#39; with value in file &#39;E:\StudentManager\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;locale&#39; with value in file &#39;E:\StudentManager\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;E:\StudentManager\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;E:\StudentManager\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;footer&#39; with value in file &#39;E:\StudentManager\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_alias&#39; with value in file &#39;E:\StudentManager\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_product&#39; with value in file &#39;E:\StudentManager\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_body&#39; with value in file &#39;E:\StudentManager\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_send&#39; with value in file &#39;E:\StudentManager\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_headerfeedback&#39; with value in file &#39;E:\StudentManager\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_alias&#39; with value in file &#39;E:\StudentManager\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_product&#39; with value in file &#39;E:\StudentManager\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_body&#39; with value in file &#39;E:\StudentManager\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+  Info: SharedContentComponent: Loaded 641 shared content items.
+  Info: ResolveConceptualLinksComponent: Instantiating component.
+  Info: ResolveConceptualLinksComponent: Collected 1 targets directories.
+  Info: ResolveReferenceLinksComponent2: Instantiating component.
+  Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Program Files\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;E:\StudentManager\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Loaded 194807 reference targets.
+  Info: SaveComponent: Instantiating component.
+  Info: BuildAssembler: Building topic N:WindowsFormsApplication3
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:WindowsFormsApplication3
+  Info: BuildAssembler: Building topic T:WindowsFormsApplication3.ComboBoxItem
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:WindowsFormsApplication3.ComboBoxItem
+  Info: BuildAssembler: Building topic AllMembers.T:WindowsFormsApplication3.ComboBoxItem
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.ComboBoxItem.#ctor
+  Info: BuildAssembler: Building topic Methods.T:WindowsFormsApplication3.ComboBoxItem
+  Info: BuildAssembler: Building topic Properties.T:WindowsFormsApplication3.ComboBoxItem
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.ComboBoxItem.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.ComboBoxItem.#ctor
+  Info: BuildAssembler: Building topic P:WindowsFormsApplication3.ComboBoxItem.Text
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:WindowsFormsApplication3.ComboBoxItem.Text
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.ComboBoxItem.ToString
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:WindowsFormsApplication3.ComboBoxItem.ToString
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:WindowsFormsApplication3.ComboBoxItem.ToString
+  Info: BuildAssembler: Building topic P:WindowsFormsApplication3.ComboBoxItem.Xtype
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:WindowsFormsApplication3.ComboBoxItem.Xtype
+  Info: BuildAssembler: Building topic T:WindowsFormsApplication3.DataConst
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:WindowsFormsApplication3.DataConst
+  Info: BuildAssembler: Building topic AllMembers.T:WindowsFormsApplication3.DataConst
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.DataConst.#ctor
+  Info: BuildAssembler: Building topic Methods.T:WindowsFormsApplication3.DataConst
+  Info: BuildAssembler: Building topic Fields.T:WindowsFormsApplication3.DataConst
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.DataConst.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.DataConst.#ctor
+  Info: BuildAssembler: Building topic F:WindowsFormsApplication3.DataConst.dataBase
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:WindowsFormsApplication3.DataConst.dataBase
+  Info: BuildAssembler: Building topic F:WindowsFormsApplication3.DataConst.dataSource
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:WindowsFormsApplication3.DataConst.dataSource
+  Info: BuildAssembler: Building topic F:WindowsFormsApplication3.DataConst.password
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:WindowsFormsApplication3.DataConst.password
+  Info: BuildAssembler: Building topic F:WindowsFormsApplication3.DataConst.userName
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:WindowsFormsApplication3.DataConst.userName
+  Info: BuildAssembler: Building topic T:WindowsFormsApplication3.ExFilter
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:WindowsFormsApplication3.ExFilter
+  Info: BuildAssembler: Building topic AllMembers.T:WindowsFormsApplication3.ExFilter
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.ExFilter.#ctor
+  Info: BuildAssembler: Building topic Methods.T:WindowsFormsApplication3.ExFilter
+  Info: BuildAssembler: Building topic Properties.T:WindowsFormsApplication3.ExFilter
+  Info: BuildAssembler: Building topic Events.T:WindowsFormsApplication3.ExFilter
+  Info: BuildAssembler: Building topic Overload:WindowsFormsApplication3.ExFilter.Dispose
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.ExFilter.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.ExFilter.#ctor
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.ExFilter.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic T:WindowsFormsApplication3.frmAddStudent
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:WindowsFormsApplication3.frmAddStudent
+  Info: BuildAssembler: Building topic AllMembers.T:WindowsFormsApplication3.frmAddStudent
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmAddStudent.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmAddStudent.#ctor
+  Info: BuildAssembler: Building topic Methods.T:WindowsFormsApplication3.frmAddStudent
+  Info: BuildAssembler: Building topic Properties.T:WindowsFormsApplication3.frmAddStudent
+  Info: BuildAssembler: Building topic Events.T:WindowsFormsApplication3.frmAddStudent
+  Info: BuildAssembler: Building topic Overload:WindowsFormsApplication3.frmAddStudent.Dispose
+  Info: BuildAssembler: Building topic Overload:WindowsFormsApplication3.frmAddStudent.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmAddStudent.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmAddStudent.#ctor
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmAddStudent.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmAddStudent.#ctor
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmAddStudent.#ctor(System.Data.DataRow,System.Boolean)
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmAddStudent.#ctor(System.Data.DataRow,System.Boolean)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;dr&quot;/&gt; documentation for M:WindowsFormsApplication3.frmAddStudent.#ctor(System.Data.DataRow,System.Boolean)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;edit&quot;/&gt; documentation for M:WindowsFormsApplication3.frmAddStudent.#ctor(System.Data.DataRow,System.Boolean)
+  Info: BuildAssembler: Building topic P:WindowsFormsApplication3.frmAddStudent.CSRQ
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:WindowsFormsApplication3.frmAddStudent.CSRQ
+  Info: BuildAssembler: Building topic P:WindowsFormsApplication3.frmAddStudent.DH
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:WindowsFormsApplication3.frmAddStudent.DH
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmAddStudent.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic P:WindowsFormsApplication3.frmAddStudent.DZ
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:WindowsFormsApplication3.frmAddStudent.DZ
+  Info: BuildAssembler: Building topic P:WindowsFormsApplication3.frmAddStudent.Email
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:WindowsFormsApplication3.frmAddStudent.Email
+  Info: BuildAssembler: Building topic P:WindowsFormsApplication3.frmAddStudent.MM
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:WindowsFormsApplication3.frmAddStudent.MM
+  Info: BuildAssembler: Building topic P:WindowsFormsApplication3.frmAddStudent.NJ
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:WindowsFormsApplication3.frmAddStudent.NJ
+  Info: BuildAssembler: Building topic P:WindowsFormsApplication3.frmAddStudent.XB
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:WindowsFormsApplication3.frmAddStudent.XB
+  Info: BuildAssembler: Building topic P:WindowsFormsApplication3.frmAddStudent.XH
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:WindowsFormsApplication3.frmAddStudent.XH
+  Info: BuildAssembler: Building topic P:WindowsFormsApplication3.frmAddStudent.XM
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:WindowsFormsApplication3.frmAddStudent.XM
+  Info: BuildAssembler: Building topic T:WindowsFormsApplication3.frmAlterPwd
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:WindowsFormsApplication3.frmAlterPwd
+  Info: BuildAssembler: Building topic AllMembers.T:WindowsFormsApplication3.frmAlterPwd
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmAlterPwd.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmAlterPwd.#ctor
+  Info: BuildAssembler: Building topic Methods.T:WindowsFormsApplication3.frmAlterPwd
+  Info: BuildAssembler: Building topic Properties.T:WindowsFormsApplication3.frmAlterPwd
+  Info: BuildAssembler: Building topic Events.T:WindowsFormsApplication3.frmAlterPwd
+  Info: BuildAssembler: Building topic Overload:WindowsFormsApplication3.frmAlterPwd.Dispose
+  Info: BuildAssembler: Building topic Overload:WindowsFormsApplication3.frmAlterPwd.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmAlterPwd.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmAlterPwd.#ctor
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmAlterPwd.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmAlterPwd.#ctor
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmAlterPwd.#ctor(System.String)
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmAlterPwd.#ctor(System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;username&quot;/&gt; documentation for M:WindowsFormsApplication3.frmAlterPwd.#ctor(System.String)
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmAlterPwd.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic T:WindowsFormsApplication3.frmEnquiry
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:WindowsFormsApplication3.frmEnquiry
+  Info: BuildAssembler: Building topic AllMembers.T:WindowsFormsApplication3.frmEnquiry
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmEnquiry.#ctor
+  Info: BuildAssembler: Building topic Methods.T:WindowsFormsApplication3.frmEnquiry
+  Info: BuildAssembler: Building topic Properties.T:WindowsFormsApplication3.frmEnquiry
+  Info: BuildAssembler: Building topic Events.T:WindowsFormsApplication3.frmEnquiry
+  Info: BuildAssembler: Building topic Overload:WindowsFormsApplication3.frmEnquiry.Dispose
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmEnquiry.#ctor(System.String)
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmEnquiry.#ctor(System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;tableName&quot;/&gt; documentation for M:WindowsFormsApplication3.frmEnquiry.#ctor(System.String)
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmEnquiry.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic T:WindowsFormsApplication3.frmLogin
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:WindowsFormsApplication3.frmLogin
+  Info: BuildAssembler: Building topic AllMembers.T:WindowsFormsApplication3.frmLogin
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmLogin.#ctor
+  Info: BuildAssembler: Building topic Methods.T:WindowsFormsApplication3.frmLogin
+  Info: BuildAssembler: Building topic Properties.T:WindowsFormsApplication3.frmLogin
+  Info: BuildAssembler: Building topic Events.T:WindowsFormsApplication3.frmLogin
+  Info: BuildAssembler: Building topic Overload:WindowsFormsApplication3.frmLogin.Dispose
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmLogin.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmLogin.#ctor
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmLogin.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic P:WindowsFormsApplication3.frmLogin.UserName
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:WindowsFormsApplication3.frmLogin.UserName
+  Info: BuildAssembler: Building topic T:WindowsFormsApplication3.frmMain
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:WindowsFormsApplication3.frmMain
+  Info: BuildAssembler: Building topic AllMembers.T:WindowsFormsApplication3.frmMain
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmMain.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmMain.#ctor
+  Info: BuildAssembler: Building topic Methods.T:WindowsFormsApplication3.frmMain
+  Info: BuildAssembler: Building topic Properties.T:WindowsFormsApplication3.frmMain
+  Info: BuildAssembler: Building topic Events.T:WindowsFormsApplication3.frmMain
+  Info: BuildAssembler: Building topic Overload:WindowsFormsApplication3.frmMain.Dispose
+  Info: BuildAssembler: Building topic Overload:WindowsFormsApplication3.frmMain.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmMain.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmMain.#ctor
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmMain.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmMain.#ctor
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmMain.#ctor(System.String)
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmMain.#ctor(System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;username&quot;/&gt; documentation for M:WindowsFormsApplication3.frmMain.#ctor(System.String)
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmMain.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic T:WindowsFormsApplication3.frmSelectedColumn
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:WindowsFormsApplication3.frmSelectedColumn
+  Info: BuildAssembler: Building topic AllMembers.T:WindowsFormsApplication3.frmSelectedColumn
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmSelectedColumn.#ctor
+  Info: BuildAssembler: Building topic Methods.T:WindowsFormsApplication3.frmSelectedColumn
+  Info: BuildAssembler: Building topic Properties.T:WindowsFormsApplication3.frmSelectedColumn
+  Info: BuildAssembler: Building topic Events.T:WindowsFormsApplication3.frmSelectedColumn
+  Info: BuildAssembler: Building topic Overload:WindowsFormsApplication3.frmSelectedColumn.Dispose
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmSelectedColumn.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:WindowsFormsApplication3.frmSelectedColumn.#ctor
+  Info: BuildAssembler: Building topic M:WindowsFormsApplication3.frmSelectedColumn.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic T:WindowsFormsApplication3.xtype
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:WindowsFormsApplication3.xtype
+  Info: Processed 91 topics
+    Last step completed in 00:10:07.3281
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 1.9.4.0
+Copyright ? 2006-2012, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in E:\StudentManager\Help\Working\Output\HtmlHelp1
+Processed 91 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to E:\StudentManager\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to E:\StudentManager\Help\Working\Documentation.hhc
+    Last step completed in 00:00:02.1563
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0625
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling e:\StudentManager\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 6 seconds
+  
+  93	Topics
+  
+  1,060	Local links
+  
+  13,762	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created e:\StudentManager\Help\Working\Output\HtmlHelp1\Documentation.chm, 408,947 bytes
+  
+  Compression decreased file by 3,333,898 bytes.
+  
+    Last step completed in 00:00:08.8125
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.4375
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 11-20-2012 09:06 上午.  Total time: 00:10:50.2188
+
+</buildStep>
+</shfbBuild>

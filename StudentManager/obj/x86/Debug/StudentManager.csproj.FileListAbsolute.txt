@@ -1,0 +1,38 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.frmAddStudent.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.frmLogin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.frmMain.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Toolkit.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\log4net.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Toolkit.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Toolkit.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.pdb
+E:\StudentManager\StudentManager\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\StudentManager\StudentManager\obj\x86\Debug\WindowsFormsApplication3.frmAddStudent.resources
+E:\StudentManager\StudentManager\obj\x86\Debug\WindowsFormsApplication3.frmLogin.resources
+E:\StudentManager\StudentManager\obj\x86\Debug\WindowsFormsApplication3.frmMain.resources
+E:\StudentManager\StudentManager\obj\x86\Debug\WindowsFormsApplication3.Properties.Resources.resources
+E:\StudentManager\StudentManager\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\StudentManager\StudentManager\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\StudentManager\StudentManager\obj\x86\Debug\WindowsFormsApplication3.frmAlterPwd.resources
+E:\StudentManager\StudentManager\obj\x86\Debug\WindowsFormsApplication3.ExFilter.resources
+E:\StudentManager\StudentManager\obj\x86\Debug\WindowsFormsApplication3.frmEnquiry.resources
+E:\StudentManager\StudentManager\obj\x86\Debug\WindowsFormsApplication3.frmSelectedColumn.resources
+E:\StudentManager\StudentManager\bin\Debug\StudentManager.exe.config
+E:\StudentManager\StudentManager\bin\Debug\StudentManager.exe
+E:\StudentManager\StudentManager\bin\Debug\StudentManager.pdb
+E:\StudentManager\StudentManager\obj\x86\Debug\StudentManager.exe
+E:\StudentManager\StudentManager\obj\x86\Debug\StudentManager.pdb
+E:\StudentManager\StudentManager\bin\Debug\StudentManager.XML
+E:\StudentManager\StudentManager\bin\Debug\Languages.dll
+E:\StudentManager\StudentManager\bin\Debug\Languages.pdb
+E:\StudentManager\StudentManager\bin\Debug\en\Languages.resources.dll
+E:\StudentManager\StudentManager\bin\Debug\zh-CHS\Languages.resources.dll
+E:\StudentManager\StudentManager\bin\Debug\Toolkit.dll

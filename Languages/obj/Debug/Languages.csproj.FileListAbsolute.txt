@@ -1,0 +1,13 @@
+E:\StudentManager\Languages\bin\Debug\Languages.dll
+E:\StudentManager\Languages\bin\Debug\Languages.pdb
+E:\StudentManager\Languages\obj\Debug\ResolveAssemblyReference.cache
+E:\StudentManager\Languages\obj\Debug\GenerateResource.read.1.tlog
+E:\StudentManager\Languages\obj\Debug\GenerateResource.write.1.tlog
+E:\StudentManager\Languages\obj\Debug\Languages.dll
+E:\StudentManager\Languages\obj\Debug\Languages.pdb
+E:\StudentManager\Languages\bin\Debug\en\Languages.resources.dll
+E:\StudentManager\Languages\bin\Debug\zh-CHS\Languages.resources.dll
+E:\StudentManager\Languages\obj\Debug\en\Languages.resources.dll
+E:\StudentManager\Languages\obj\Debug\zh-CHS\Languages.resources.dll
+E:\StudentManager\Languages\obj\Debug\Languages.Language.en.resources
+E:\StudentManager\Languages\obj\Debug\Languages.Language.zh-CHS.resources
